@@ -1,0 +1,10 @@
+#Requirements to deploy this project
+
+httpcore==1.0.2; python_version >= '3.8'
+httptools==0.6.1
+pandas==1.5.3
+matplotlib==3.7.5
+seaborn==0.13.2
+plotly==1.9.0
+streamlit==5.8.0
+
