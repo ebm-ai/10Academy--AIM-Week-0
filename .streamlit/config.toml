@@ -1,5 +1,3 @@
-[general]
-browser.serverAddress = "localhost"
 [server]
-headless = true
-enableCORS = false
+
+runOnSave = true
