@@ -72,13 +72,6 @@ if category == "Negative values":
 
 st.write(filtered_data)
 
-# Display Correlation Analysis
-#st.subheader("Correlation Analysis")
-#correlation_of_TModA = df[x_column].corr(df[y_column])
-#correlation_of_TModB = df[x_column].corr(df[y_column])
-
-#print(f"Correlation coefficient between Tamb and TModA: {round(correlation_of_TModA, 4)}")
-#print(f"Correlation coefficient between Tamb and TModB: {round(correlation_of_TModB, 4)}")
 
 
 #Summary Statistics
@@ -115,18 +108,3 @@ if btn2:
     utils.generate_scatter_plot(data, 'Tamb', 'TModB', "Scatter Plot", hue=hue)
 
 
-# Display Wind Analysis
-#st.subheader("Wind Analysis")
-#df['Timestamp'] = pd.to_datetime(df['Timestamp'])
-#df.set_index('Timestamp', inplace=True)
-
-#plt.subplot(2, 2, 1)
-#plt.plot(df['WS'], color='blue', label='WS')
-#plt.plot(df['WSgust'], color='green', label='WSgust')
-#plt.plot(df['WSstdev'], color='red', label='WSstdev')
-#plt.title('Wind Speed')
-#plt.xlabel('Timestamp')
-#plt.ylabel('Wind Speed (m/s)')
-#plt.legend()
-
-#st.pyplot(plt)
