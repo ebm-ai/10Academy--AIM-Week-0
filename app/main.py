@@ -16,7 +16,7 @@ st.title("10Academy-AIM")
 
 selected_option = st.selectbox(label="Choose a dataset (.CSV):", options=utils.get_list_of_csvs())
 
-df = utils.fetch_data(f"../data/{selected_option}")
+df = utils.fetch_data(f"./data/{selected_option}")
 
 
 st.title("MoonLight Energy Solutions Dashboard")
