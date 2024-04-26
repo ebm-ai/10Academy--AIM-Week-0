@@ -1,8 +1,6 @@
 ### 10 Academy: Artificial Intelligence Mastery
 
 #### Week 0 Challenge Document
-**Date:** 23 April - 25 April 2024
-
 ---
 
 ### Table of Contents
@@ -41,7 +39,7 @@ The dataset contains solar radiation, air temperature, humidity, barometric pres
 ---
 
 ### Contributor
-**Eyob Birhanemeskel (@ebm-ai)**
+**Eyob Birhanemeskel** (@ebm-ai)
 
 ---
 
